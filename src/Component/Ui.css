@@ -1,0 +1,75 @@
+div{
+    /* border: 1px solid red; */
+}
+.SearchFiled{
+    width: 100%;
+    height: 25px;
+    margin: 20px 0;
+}
+.UiColumnParent{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    font-size: 18px;
+    font-weight: 600;
+}
+.UiColChild{
+    padding: 10px;
+    border-top: 1px solid black;
+}
+.UiRowParent{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+.UiRowChild{
+    padding: 10px;
+    border-top: 1px solid black;
+}
+.editDelete{
+    display: flex;
+}
+.pageNavigaterContainer{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+.pageNavigaterParnet{
+    display: flex;
+    justify-content: space-around;
+}
+.pageNvigate{
+    background-color: blue;
+    color: white;
+    border-radius: 50%;
+    padding: 4px;
+    cursor: pointer;
+}
+.infoEditDivContainer{
+    position: relative;
+    bottom: 200px;
+}
+.infoEditDiv{
+    background-color: rgb(116, 134, 134);
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+    padding: 20px;
+}
+.editIcons:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.iconDelete{
+    color: red;
+}
+
+.togglePage{
+    background-color: rgb(113, 207, 109);
+}
+.DeleteBtn, .submitBtn{
+    background-color: rgb(224, 94, 94);
+    border-radius: 8px;
+    padding: 8px;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
